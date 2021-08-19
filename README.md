@@ -8,5 +8,5 @@ Transformer Encoder is trained using CTC Method
 
 
 
-
+Dataset: https://clarin.phonetik.uni-muenchen.de/BASRepository/index.php?target=Public/Corpora/SIGNUM/SIGNUM.1.php
 Reference: Sign Language Transformers, https://github.com/neccam/slt
