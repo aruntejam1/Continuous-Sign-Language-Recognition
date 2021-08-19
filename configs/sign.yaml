@@ -1,14 +1,14 @@
 name: sign_experiment
 data:
     data_path: ./data/
-    version: phoenix_2014_trans
+    version: SIGNUM
     sgn: sign
     txt: text
     gls: gloss
-    train: PHOENIX2014T/phoenix14t.pami0.train
-    dev: PHOENIX2014T/phoenix14t.pami0.dev
-    test: PHOENIX2014T/phoenix14t.pami0.test
-    feature_size: 1024
+    train: SIGNUM/signum.fhb.train
+    dev: SIGNUM/signum.fhb.dev
+    test: SIGNUM/signum.fhb.test
+    feature_size: 274
     level: word
     txt_lowercase: true
     max_sent_length: 400
@@ -52,7 +52,7 @@ training:
     random_seed: 42
     model_dir: "./sign_sample_model"
     recognition_loss_weight: 1.0
-    translation_loss_weight: 1.0
+    translation_loss_weight: 0.0
     eval_metric: bleu
     optimizer: adam
     learning_rate: 0.001
